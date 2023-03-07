@@ -21,7 +21,6 @@ public class MainController {
 
     @RequestMapping("/jblog")
     public String Main(){
-
         return "template/main/index";
     }
 }
